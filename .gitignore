@@ -1,0 +1,96 @@
+# .gitignore for Student Grade Management System
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options directory
+.vs/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Test Results
+TestResults/
+*.trx
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+
+# dotnet CLI
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Files built by Visual Studio
+*.sln.iml
+*.csproj.user
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE specific files
+.idea/
+*.iml
+.vscode-remote/
+
+# Environment files
+.env
+.env.local
+
+# Package Manager
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Distribution packages
+dist/
+build/
+
+# Compiled DLL
+*.dll
+*.exe
+*.so
+*.dylib
+*.o
+*.a
+*.lib
+
+# VS Code extensions
+extensions/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Local environment variables
+.env
+.env.local
+.env.*.local
